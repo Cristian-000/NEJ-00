@@ -20,7 +20,9 @@ function cargarNavbar() {
                                     Categorías
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    ${data.categorias.map(categoria => `<li><a class="dropdown-item" href="${categoria.enlace}">${categoria.nombre}</a></li>`).join('')}
+                                    ${data.categorias.map(categoria => 
+                                        `<li><a class="dropdown-item" href="${categoria.enlace}">${categoria.nombre}</a></li>`
+                                    ).join('')}
                                 </ul>
                             </li>
                             <li class="nav-item">
