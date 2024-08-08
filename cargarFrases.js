@@ -1,3 +1,4 @@
+// Función para cargar las frases de la categoría seleccionada
 function cargarFrases(categoriaNombre) {
     fetch('categorias.json')
         .then(response => response.json())
@@ -20,6 +21,3 @@ function cargarFrases(categoriaNombre) {
         })
         .catch(error => console.error('Error al cargar las frases:', error));
 }
-
-// Llamar a la función con el nombre de la categoría actual
-document.addEventListener('DOMContentLoaded', () => cargarFrases('Relaciones de Pareja'));
