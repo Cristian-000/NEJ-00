@@ -7,7 +7,7 @@ function cargarAside() {
             aside.innerHTML = `
                 <h5>Categorías</h5>
                 <ul class="list-group">
-                    ${data.categorias.map(categoria => `<li class="list-group-item"><a href="${categoria.enlace}">${categoria.nombre}</a></li>`).join('')}
+                    ${data.categorias.map(categoria => `<li class="list-group-item"><a href="${categoria.enlace}">${categoria.titulo}</a></li>`).join('')}
                 </ul>
             `;
         })
