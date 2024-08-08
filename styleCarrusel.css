@@ -1,0 +1,32 @@
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    width: 200%; /* Ajusta este valor según el número de elementos */
+    animation: scroll 10s linear infinite;
+}
+
+.carousel a {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.carousel a:hover {
+    background-color: #e1e1e1;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Ajusta según el ancho del carrusel */
+}
