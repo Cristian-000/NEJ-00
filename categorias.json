@@ -2,23 +2,34 @@
   "categorias": [
     {
       "nombre": "Relaciones de Pareja",
-      "enlace": "relaciones_pareja.html"
+      "enlace": "relaciones_pareja.html",
+      "frases": [
+        {
+          "titulo": "Amar sin ser correspondido",
+          "enlace": "relaciones_pareja_1.html",
+          "fecha": "2024-08-01",
+          "autor": "Autor 1"
+        },
+        {
+          "titulo": "El silencio en la relación",
+          "enlace": "relaciones_pareja_2.html",
+          "fecha": "2024-08-02",
+          "autor": "Autor 2"
+        }
+      ]
     },
     {
       "nombre": "Amor No Correspondido",
-      "enlace": "amor_no_correspondido.html"
-    },
-    {
-      "nombre": "Trabajo y Carreras",
-      "enlace": "trabajo_carreras.html"
-    },
-    {
-      "nombre": "Sociedad y Cultura",
-      "enlace": "sociedad_cultura.html"
-    },
-    {
-      "nombre": "Frases Célebres",
-      "enlace": "frases_celebres.html"
+      "enlace": "amor_no_correspondido.html",
+      "frases": [
+        {
+          "titulo": "El dolor de un amor unilateral",
+          "enlace": "amor_no_correspondido_1.html",
+          "fecha": "2024-08-03",
+          "autor": "Autor 3"
+        }
+      ]
     }
+    // Puedes agregar más categorías y frases aquí
   ]
 }
