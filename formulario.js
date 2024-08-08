@@ -8,6 +8,10 @@ function cargarFormulario() {
                 <input type="text" class="form-control" id="nombre" name="nombre" required>
             </div>
             <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
                 <label for="categoria" class="form-label">Categoría</label>
                 <select class="form-select" id="categoria" name="categoria" required>
                     <option selected disabled>Selecciona una categoría</option>
@@ -29,12 +33,15 @@ function cargarFormulario() {
         event.preventDefault();
 
         const nombre = document.getElementById('nombre').value;
+        const email = document.getElementById('email').value;
         const categoria = document.getElementById('categoria').value;
         const reconocimiento = document.getElementById('reconocimiento').checked ? 'Sí' : 'No';
         const frase = document.getElementById('frase').value;
 
-        const mailtoLink = `mailto:noesjustocanal@gmail.com?subject=Nueva%20Frase%20de%20${nombre}&body=Nombre: ${nombre}%0ACategoría: ${categoria}%0AReconocimiento: ${reconocimiento}%0AFrase:%0A${encodeURIComponent(frase)}`;
+        // Crear el enlace mailto
+        const mailtoLink = `mailto:noesjustocanal@gmail.com?subject=Nueva%20Frase%20de%20${nombre}&body=Nombre: ${nombre}%0ACorreo: ${email}%0ACategoría: ${categoria}%0AReconocimiento: ${reconocimiento}%0AFrase:%0A${encodeURIComponent(frase)}`;
 
+        // Redirigir a mailto
         window.location.href = mailtoLink;
     });
 
