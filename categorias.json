@@ -1,0 +1,24 @@
+{
+  "categorias": [
+    {
+      "nombre": "Relaciones de Pareja",
+      "enlace": "relaciones_pareja.html"
+    },
+    {
+      "nombre": "Amor No Correspondido",
+      "enlace": "amor_no_correspondido.html"
+    },
+    {
+      "nombre": "Trabajo y Carreras",
+      "enlace": "trabajo_carreras.html"
+    },
+    {
+      "nombre": "Sociedad y Cultura",
+      "enlace": "sociedad_cultura.html"
+    },
+    {
+      "nombre": "Frases Célebres",
+      "enlace": "frases_celebres.html"
+    }
+  ]
+}
