@@ -1,33 +1,45 @@
 function cargarFormulario() {
     const container = document.getElementById('container_formulario');
     container.innerHTML = `
-        <h2>Envía tu Frase</h2>
-        <form id="fraseForm">
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" name="nombre" required>
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Correo Electrónico</label>
-                <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            <div class="mb-3">
-                <label for="categoria" class="form-label">Categoría</label>
-                <select class="form-select" id="categoria" name="categoria" required>
-                    <option selected disabled>Selecciona una categoría</option>
-                </select>
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="reconocimiento" name="reconocimiento">
-                <label class="form-check-label" for="reconocimiento">¿Quieres reconocimiento?</label>
-            </div>
-            <div class="mb-3">
-                <label for="frase" class="form-label">Tu Frase</label>
-                <textarea class="form-control" id="frase" name="frase" rows="3" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar Frase</button>
-        </form>
+        <h2 id="toggleFormulario" style="cursor: pointer;">Envía tu Frase</h2>
+        <div id="formContainer" style="display: none;">
+            <form id="fraseForm">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="categoria" class="form-label">Categoría</label>
+                    <select class="form-select" id="categoria" name="categoria" required>
+                        <option selected disabled>Selecciona una categoría</option>
+                    </select>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="reconocimiento" name="reconocimiento">
+                    <label class="form-check-label" for="reconocimiento">¿Quieres reconocimiento?</label>
+                </div>
+                <div class="mb-3">
+                    <label for="frase" class="form-label">Tu Frase</label>
+                    <textarea class="form-control" id="frase" name="frase" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Frase</button>
+            </form>
+        </div>
     `;
+
+    // Evento para mostrar/ocultar el formulario
+    document.getElementById('toggleFormulario').addEventListener('click', function() {
+        const formContainer = document.getElementById('formContainer');
+        if (formContainer.style.display === 'none') {
+            formContainer.style.display = 'block';
+        } else {
+            formContainer.style.display = 'none';
+        }
+    });
 
     document.getElementById('fraseForm').addEventListener('submit', function(event) {
         event.preventDefault();
