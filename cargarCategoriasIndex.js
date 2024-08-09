@@ -5,7 +5,7 @@ function cargarListaIndex() {
         .then(data => {
             const lista = document.getElementById('index-categorias');
             lista.innerHTML = `
-                <h5>Categorías</h5>
+                <h4>Categorías disponibles:</h4>
                 <ul class="list-group">
                     ${data.categorias.map(categoria => 
                         `<li class="list-group-item"><a href="${categoria.enlace}" onclick="guardarCategoria('${categoria.nombre}')">${categoria.nombre}</a></li>`
