@@ -1,11 +1,18 @@
 // Función para cargar las frases de la categoría seleccionada
-function cargarFrases(categoriaNombre) {
+function cargarFrases() {
+    const categoriaNombre = localStorage.getItem('categoriaSeleccionada');
+    if (!categoriaNombre) {
+        console.error('No se ha seleccionado ninguna categoría.');
+        return;
+    }
+
     fetch('categorias.json')
         .then(response => response.json())
         .then(data => {
             const categoria = data.categorias.find(cat => cat.nombre === categoriaNombre);
             if (categoria && categoria.frases) {
                 const listaFrases = document.getElementById('lista-frases');
+                listaFrases.innerHTML = ''; // Limpiar lista antes de agregar nuevas frases
                 const frasesOrdenadas = categoria.frases.sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
                 frasesOrdenadas.forEach(frase => {
                     const li = document.createElement('li');
@@ -17,7 +24,12 @@ function cargarFrases(categoriaNombre) {
                     `;
                     listaFrases.appendChild(li);
                 });
+            } else {
+                console.error('No se encontraron frases para esta categoría.');
             }
         })
         .catch(error => console.error('Error al cargar las frases:', error));
 }
+
+// Cargar las frases al cargar la página
+document.addEventListener('DOMContentLoaded', cargarFrases);
