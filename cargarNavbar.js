@@ -35,7 +35,11 @@ function cargarNavbar() {
         })
         .catch(error => console.error('Error al cargar las categorías para el navbar:', error));
 }
+
 // Función para guardar la categoría seleccionada en localStorage
-function guardarCategoria(categoriaNombre) {
-    localStorage.setItem('categoriaSeleccionada', categoriaNombre);
+function guardarCategoria(nombreCategoria) {
+    localStorage.setItem('categoriaSeleccionada', nombreCategoria);
 }
+
+// Cargar el navbar al cargar la página
+document.addEventListener('DOMContentLoaded', cargarNavbar);
