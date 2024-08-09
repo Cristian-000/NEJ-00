@@ -1,7 +1,7 @@
 function cargarFormulario() {
     const container = document.getElementById('container_formulario');
     container.innerHTML = `
-        <h2 id="toggleFormulario" style="cursor: pointer;">Envía tu Frase</h2>
+        <h2 id="toggleFormulario" style="cursor: pointer;"> ¡ Envía tu Frase !</h2>
         <div id="formContainer" style="display: none;">
             <form id="fraseForm">
                 <div class="mb-3">
