@@ -59,6 +59,30 @@
           "autor": "Autor 3"
         }
       ]
+    },
+    {
+      "nombre": "Injusticias Laborales",
+      "enlace": "injusticias_laborales.html",
+      "frases": [
+        {
+          "titulo": "Desigualdad Salarial",
+          "enlace": "desigualdad_salarial.html",
+          "fecha": "2024-08-10",
+          "autor": "Autor 6"
+        },
+        {
+          "titulo": "Discriminación en el Lugar de Trabajo",
+          "enlace": "discriminacion_laboral.html",
+          "fecha": "2024-08-15",
+          "autor": "Autor 7"
+        },
+        {
+          "titulo": "Explotación Laboral",
+          "enlace": "explotacion_laboral.html",
+          "fecha": "2024-08-20",
+          "autor": "Autor 8"
+        }
+      ]
     }
   ]
 }
