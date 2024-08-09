@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desigualdad Salarial - No es Justo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styleCarrusel.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Contenido del navbar se cargará dinámicamente -->
+    </nav>
+
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Desigualdad Salarial</h1>
+    </header>
+    
+    <main class="container my-5">
+        <section>
+            <h2>La Brecha Salarial: Un Desafío Persistente</h2>
+            <p>La desigualdad salarial es una de las injusticias más persistentes en el ámbito laboral. A pesar de los avances en igualdad de oportunidades, las diferencias salariales entre diferentes grupos de empleados siguen siendo significativas. Esta brecha puede estar influenciada por factores como el género, la raza y la antigüedad, y puede tener un impacto profundo en la vida de los trabajadores afectados.</p>
+
+            <h3>¿Qué es la Desigualdad Salarial?</h3>
+            <p>La desigualdad salarial se refiere a la discrepancia en los ingresos que reciben los empleados en función de características personales que no deberían influir en el pago por el trabajo realizado. Esto incluye, pero no se limita a, la disparidad de salario entre hombres y mujeres, o entre trabajadores de diferentes razas o etnias. Esta injusticia puede reflejarse en la forma en que se asignan los aumentos salariales, las bonificaciones y las oportunidades de avance profesional.</p>
+
+            <h3>Consecuencias de la Desigualdad Salarial</h3>
+            <p>La desigualdad salarial no solo afecta a los ingresos individuales, sino que también tiene implicaciones más amplias para la equidad y la moral en el lugar de trabajo. Los empleados que perciben que no son compensados equitativamente pueden experimentar una disminución en su motivación, compromiso y satisfacción laboral. Además, la brecha salarial perpetúa ciclos de pobreza y limita el acceso a oportunidades de desarrollo profesional y personal para los grupos desfavorecidos.</p>
+
+            <h3>Cómo Abordar la Desigualdad Salarial</h3>
+            <p>Para enfrentar la desigualdad salarial, es crucial adoptar enfoques que promuevan la transparencia y la equidad. Algunas medidas incluyen:</p>
+            <ul>
+                <li><strong>Realizar Auditorías Salariales:</strong> Evaluar regularmente los salarios y las prácticas de compensación para identificar y corregir disparidades.</li>
+                <li><strong>Implementar Políticas de Igualdad Salarial:</strong> Establecer políticas claras que promuevan la igualdad salarial y aseguren que todos los empleados reciban una compensación justa.</li>
+                <li><strong>Fomentar la Transparencia:</strong> Compartir información sobre los criterios de compensación y las oportunidades de avance para todos los empleados.</li>
+                <li><strong>Promover la Educación y la Capacitación:</strong> Ofrecer programas de formación para que los empleados comprendan y defiendan sus derechos salariales.</li>
+            </ul>
+
+            <h3>Conclusión</h3>
+            <p>La desigualdad salarial es una injusticia que requiere atención y acción. Al abordar este problema con políticas equitativas y prácticas transparentes, las organizaciones pueden trabajar hacia un entorno laboral más justo y inclusivo. No es justo que la brecha salarial persista, y es responsabilidad de todos contribuir a su eliminación.</p>
+        </section>
+    </main>
+
+    <!-- Carrusel de navegación -->
+    <div class="carousel-container">
+        <div class="carousel">
+            <!-- Aquí se cargarán los enlaces del carrusel dinámicamente -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 No es Justo. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="cargarNavbar.js"></script>
+    <script src="cargarCarrusel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
