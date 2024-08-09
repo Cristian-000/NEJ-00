@@ -35,9 +35,15 @@
       "enlace": "amor_no_correspondido.html",
       "frases": [
         {
-          "titulo": "El dolor de un amor unilateral",
+          "titulo": "El dolor de un amor no correspondido",
           "enlace": "amor_no_correspondido_1.html",
           "fecha": "2024-08-03",
+          "autor": "Autor 3"
+        },
+        {
+          "titulo": "El amor unilateral",
+          "enlace": "amor_unilateral_1.html",
+          "fecha": "2024-08-10",
           "autor": "Autor 3"
         }
       ]
