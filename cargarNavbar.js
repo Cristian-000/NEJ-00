@@ -21,7 +21,7 @@ function cargarNavbar() {
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     ${data.categorias.map(categoria => 
-                                        `<li><a class="dropdown-item" href="${categoria.enlace}">${categoria.nombre}</a></li>`
+                                        `<li><a class="dropdown-item" href="${categoria.enlace}" onclick="guardarCategoria('${categoria.nombre}')">${categoria.nombre}</a></li>`
                                     ).join('')}
                                 </ul>
                             </li>
@@ -35,6 +35,7 @@ function cargarNavbar() {
         })
         .catch(error => console.error('Error al cargar las categorías para el navbar:', error));
 }
-
-// Cargar el navbar al cargar la página
-document.addEventListener('DOMContentLoaded', cargarNavbar);
+// Función para guardar la categoría seleccionada en localStorage
+function guardarCategoria(categoriaNombre) {
+    localStorage.setItem('categoriaSeleccionada', categoriaNombre);
+}
