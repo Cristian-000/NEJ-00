@@ -1,0 +1,30 @@
+/* Asegúrate de importar el archivo de variables en el archivo CSS */
+@import url('variables.css');
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: var(--color-texto);
+    background-color: var(--color-secundario);
+    border-radius: 50%;
+    border: 2px solid var(--color-acento);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+    background-color: var(--color-acento);
+    color: var(--color-secundario);
+}
+
+.social-icon i {
+    font-size: 20px;
+}
