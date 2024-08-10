@@ -22,7 +22,7 @@ header a{
       padding: 5px;
     text-align: center;
     text-decoration: none;
-    color: var(--color-texto);
+    color: var(--color-fondo);
 }
 h2, h3 {
     color: var(--color-acento);
