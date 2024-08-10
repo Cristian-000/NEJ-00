@@ -1,4 +1,42 @@
+/* Asegúrate de importar el archivo de variables en el archivo CSS del carrusel */
+@import url('variables.css');
+
 .carousel-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background-color: var(--color-secundario);
+    border: 1px solid var(--color-acento);
+    border-radius: 5px;
+}
+
+.carousel {
+    display: flex;
+    width: 200%; /* Ajusta este valor según el número de elementos */
+    animation: scroll 10s linear infinite;
+}
+
+.carousel a {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-texto);
+    background-color: var(--color-secundario);
+    border: 1px solid var(--color-acento);
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.carousel a:hover {
+    background-color: var(--color-acento);
+    color: var(--color-secundario);
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Ajusta según el ancho del carrusel */
+}.carousel-container {
     overflow: hidden;
     width: 100%;
     position: relative;
