@@ -1,0 +1,7 @@
+/* variables.css */
+:root {
+    --color-fondo: #ffffff;
+    --color-texto: #000000;
+    --color-acento: #800020; /* Rojo Bordó */
+    --color-secundario: #f5f5f5; /* Un blanco suave para fondos secundarios */
+}
