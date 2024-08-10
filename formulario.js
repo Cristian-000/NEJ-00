@@ -2,7 +2,7 @@ function cargarFormulario() {
     const container = document.getElementById('container_formulario');
     container.innerHTML = `
         <h2 id="toggleFormulario" class="text-center cursor-pointer mb-4" style="margin-top: 1rem; font-size: 1.5rem; color: var(--color-acento);">
-            ¡Envía tu frase y comparte tu injusticia! 
+            Envía tu frase
             <i class="fas fa-chevron-down"></i>
         </h2>
 
@@ -44,7 +44,7 @@ function cargarFormulario() {
         if (formContainer.style.display === 'none') {
             formContainer.style.display = 'block';
             toggleButton.innerHTML = `
-                ¡Envía tu frase y comparte tu injusticia! 
+                Gracias 
                 <i class="fas fa-chevron-up"></i>
             `;
         } else {
