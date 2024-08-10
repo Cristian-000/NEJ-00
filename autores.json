@@ -1,0 +1,32 @@
+{
+    "autores": [
+        {
+            "nombre": "Cristian Fernández",
+            "enlace": "autor_00001_cristian_fernandez.html"
+        },
+        {
+            "nombre": "Autor 2",
+            "enlace": "autor_00002_autor_2.html"
+        },
+        {
+            "nombre": "Autor 3",
+            "enlace": "autor_00003_autor_3.html"
+        },
+        {
+            "nombre": "Autor 4",
+            "enlace": "autor_00004_autor_4.html"
+        },
+        {
+            "nombre": "Autor 6",
+            "enlace": "autor_00006_autor_6.html"
+        },
+        {
+            "nombre": "Autor 7",
+            "enlace": "autor_00007_autor_7.html"
+        },
+        {
+            "nombre": "Autor 8",
+            "enlace": "autor_00008_autor_8.html"
+        }
+    ]
+}
