@@ -18,7 +18,12 @@ header {
 h1 {
     margin: 0;
 }
-
+header a{
+      padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-texto);
+}
 h2, h3 {
     color: var(--color-acento);
     margin-top: 20px;
