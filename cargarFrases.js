@@ -22,7 +22,8 @@ function cargarFrases() {
                         li.innerHTML = `
                             <a href="${frase.enlace}" class="text-decoration-none" style="color: var(--color-acento); font-weight: bold;">${frase.titulo}</a>
                             <br>
-                            <small class="text-muted">Por: ${frase.autor} | Fecha: ${new Date(frase.fecha).toLocaleDateString()}</small>
+                                <small class="text-muted">
+        Por: <a href="${frase.autor_page}" class="text-muted">${frase.autor}</a> | Fecha: ${new Date(frase.fecha).toLocaleDateString()}</small>
                         `;
                         listaFrases.appendChild(li);
                     });
