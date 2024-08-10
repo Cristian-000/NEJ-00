@@ -44,13 +44,13 @@ function cargarFormulario() {
         if (formContainer.style.display === 'none') {
             formContainer.style.display = 'block';
             toggleButton.innerHTML = `
-                Gracias 
+                Muchas Gracias 
                 <i class="fas fa-chevron-up"></i>
             `;
         } else {
             formContainer.style.display = 'none';
             toggleButton.innerHTML = `
-                ¡Envía tu frase y comparte tu injusticia! 
+                Envía tu frase
                 <i class="fas fa-chevron-down"></i>
             `;
         }
