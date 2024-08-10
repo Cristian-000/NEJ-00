@@ -8,37 +8,43 @@
           "titulo": "Equidad en las tareas del hogar",
           "enlace": "relaciones_pareja_7.html",
           "fecha": "2024-08-10",
-          "autor": "Autor 3"
+          "autor": "Autor 3",
+          "autor_page": "autor_00001_cristian_fernandez.html"
         },
         {
           "titulo": "Las redes sociales en la relación",
           "enlace": "relaciones_pareja_6.html",
           "fecha": "2024-08-09",
-          "autor": "Autor 3"
+          "autor": "Autor 3",
+          "autor_page": "autor_00001_cristian_fernandez.html"
         },
         {
           "titulo": "Los celos en la relación",
           "enlace": "relaciones_pareja_5.html",
           "fecha": "2024-08-10",
-          "autor": "Autor 3"
+          "autor": "Autor 3",
+          "autor_page": "autor_00001_cristian_fernandez.html"
         },
         {
           "titulo": "El silencio en la relación",
           "enlace": "relaciones_pareja_2.html",
           "fecha": "2024-08-02",
-          "autor": "Autor 2"
+          "autor": "Autor 2",
+          "autor_page": "autor_00002_autor_2.html"
         },
         {
           "titulo": "Las peleas constantes",
           "enlace": "relaciones_pareja_3.html",
           "fecha": "2024-08-05",
-          "autor": "Autor 3"
+          "autor": "Autor 3",
+          "autor_page": "autor_00001_cristian_fernandez.html"
         },
         {
           "titulo": "La distancia emocional",
           "enlace": "relaciones_pareja_4.html",
           "fecha": "2024-08-07",
-          "autor": "Autor 4"
+          "autor": "Autor 4",
+          "autor_page": "autor_00004_autor_4.html"
         }
       ]
     },
@@ -50,13 +56,15 @@
           "titulo": "El dolor de un amor no correspondido",
           "enlace": "amor_no_correspondido_1.html",
           "fecha": "2024-08-03",
-          "autor": "Autor 3"
+          "autor": "Autor 3",
+          "autor_page": "autor_00001_cristian_fernandez.html"
         },
         {
           "titulo": "El amor unilateral",
           "enlace": "amor_unilateral_1.html",
           "fecha": "2024-08-10",
-          "autor": "Autor 3"
+          "autor": "Autor 3",
+          "autor_page": "autor_00001_cristian_fernandez.html"
         }
       ]
     },
@@ -68,32 +76,37 @@
           "titulo": "Desigualdad Salarial",
           "enlace": "desigualdad_salarial.html",
           "fecha": "2024-08-10",
-          "autor": "Autor 6"
+          "autor": "Autor 6",
+          "autor_page": "autor_00006_autor_6.html"
         },
         {
           "titulo": "Discriminación por edad en el Trabajo",
           "enlace": "discriminacion_por_edad.html",
           "fecha": "2024-08-15",
-          "autor": "Autor 7"
+          "autor": "Autor 7",
+          "autor_page": "autor_00007_autor_7.html"
         },
         {
           "titulo": "Abuso de contratos temporales",
           "enlace": "abuso_contratos_temporales.html",
           "fecha": "2024-08-20",
-          "autor": "Autor 8"
+          "autor": "Autor 8",
+          "autor_page": "autor_00008_autor_8.html"
         },
         {
           "titulo": "Explotacion laboral en la industria Textil",
           "enlace": "abuso_industria_textil.html",
           "fecha": "2024-05-11",
-          "autor": "Autor 8"
+          "autor": "Autor 8",
+          "autor_page": "autor_00008_autor_8.html"
         },
-         {
+        {
           "titulo": "Injusticias del Teletrabajo",
           "enlace": "injusticias_teletrabajo.html",
           "fecha": "2024-09-11",
-          "autor": "Autor 8"
-         }
+          "autor": "Autor 8",
+          "autor_page": "autor_00008_autor_8.html"
+        }
       ]
     }
   ]
