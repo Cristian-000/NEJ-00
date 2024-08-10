@@ -21,7 +21,7 @@ h1 {
 header p a{
       padding: 5px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--color-fondo);
 }
 h2, h3 {
