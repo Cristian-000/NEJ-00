@@ -1,0 +1,41 @@
+/* frasesStyles.css */
+/* indexStyles.css */
+@import url('variables.css');
+
+/* Aquí el resto de tus estilos específicos para el index */
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: var(--color-acento);
+    color: var(--color-fondo);
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2, h3 {
+    color: var(--color-acento);
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: var(--color-acento);
+    color: var(--color-fondo);
+    padding: 10px 0;
+    text-align: center;
+}
