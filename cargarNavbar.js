@@ -26,6 +26,9 @@ function cargarNavbar() {
                                 </ul>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="autores.html" style="color: var(--color-texto);">Autores</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="contacto.html" style="color: var(--color-texto);">Contacto</a>
                             </li>
                         </ul>
