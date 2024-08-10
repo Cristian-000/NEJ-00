@@ -1,7 +1,10 @@
 function cargarFormulario() {
     const container = document.getElementById('container_formulario');
     container.innerHTML = `
-        <h2 id="toggleFormulario" class="text-center cursor-pointer mb-4" style="margin-top: 1rem; font-size: 1.5rem; color: var(--color-acento);">¡Envía tu frase y comparte tu injusticia! <i class="fas fa-chevron-down"></i></h2>
+        <h2 id="toggleFormulario" class="text-center cursor-pointer mb-4" style="margin-top: 1rem; font-size: 1.5rem; color: var(--color-acento);">
+            ¡Envía tu frase y comparte tu injusticia! 
+            <i class="fas fa-chevron-down"></i>
+        </h2>
 
         <!-- Contenedor del formulario -->
         <div id="formContainer" style="display: none;">
@@ -28,18 +31,28 @@ function cargarFormulario() {
                     <label for="frase" class="form-label" style="color: var(--color-texto);">Tu Frase</label>
                     <textarea class="form-control" id="frase" name="frase" rows="4" placeholder="Escribe tu frase aquí" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary w-100" style="background-color: var(--color-acento); border-color: var(--color-acento);">Enviar Frase   <i class="fas fa-envelope"></i></button>
+                <button type="submit" class="btn btn-primary w-100" style="background-color: var(--color-acento); border-color: var(--color-acento);">Enviar Frase <i class="fas fa-envelope"></i></button>
             </form>
         </div>
     `;
 
+    const toggleButton = document.getElementById('toggleFormulario');
+    const formContainer = document.getElementById('formContainer');
+
     // Evento para mostrar/ocultar el formulario
-    document.getElementById('toggleFormulario').addEventListener('click', function() {
-        const formContainer = document.getElementById('formContainer');
+    toggleButton.addEventListener('click', function() {
         if (formContainer.style.display === 'none') {
             formContainer.style.display = 'block';
+            toggleButton.innerHTML = `
+                ¡Envía tu frase y comparte tu injusticia! 
+                <i class="fas fa-chevron-up"></i>
+            `;
         } else {
             formContainer.style.display = 'none';
+            toggleButton.innerHTML = `
+                ¡Envía tu frase y comparte tu injusticia! 
+                <i class="fas fa-chevron-down"></i>
+            `;
         }
     });
 
