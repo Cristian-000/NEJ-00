@@ -1,37 +1,36 @@
 function cargarFormulario() {
     const container = document.getElementById('container_formulario');
     container.innerHTML = `
-<h2 id="toggleFormulario" class="text-center cursor-pointer mb-4" style="margin-top: 1rem; font-size: 1.5rem; color: #004085;">¡Envía tu frase y comparte tu injusticia!</h2>
+        <h2 id="toggleFormulario" class="text-center cursor-pointer mb-4" style="margin-top: 1rem; font-size: 1.5rem; color: var(--color-acento);">¡Envía tu frase y comparte tu injusticia!</h2>
 
-<!-- Contenedor del formulario -->
-<div id="formContainer" style="display: none;">
-    <form id="fraseForm" class="p-4 border rounded shadow-sm bg-light">
-        <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+        <!-- Contenedor del formulario -->
+        <div id="formContainer" style="display: none;">
+            <form id="fraseForm" class="p-4 border rounded shadow-sm bg-light" style="background-color: var(--color-secundario); color: var(--color-texto);">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label" style="color: var(--color-texto);">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label" style="color: var(--color-texto);">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+                </div>
+                <div class="mb-3">
+                    <label for="categoria" class="form-label" style="color: var(--color-texto);">Categoría</label>
+                    <select class="form-select" id="categoria" name="categoria" required>
+                        <option selected disabled>Selecciona una categoría</option>
+                    </select>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="reconocimiento" name="reconocimiento">
+                    <label class="form-check-label" for="reconocimiento" style="color: var(--color-texto);">¿Quieres reconocimiento?</label>
+                </div>
+                <div class="mb-3">
+                    <label for="frase" class="form-label" style="color: var(--color-texto);">Tu Frase</label>
+                    <textarea class="form-control" id="frase" name="frase" rows="4" placeholder="Escribe tu frase aquí" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100" style="background-color: var(--color-acento); border-color: var(--color-acento);">Enviar Frase</button>
+            </form>
         </div>
-        <div class="mb-3">
-            <label for="email" class="form-label">Correo Electrónico</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
-        </div>
-        <div class="mb-3">
-            <label for="categoria" class="form-label">Categoría</label>
-            <select class="form-select" id="categoria" name="categoria" required>
-                <option selected disabled>Selecciona una categoría</option>
-            
-            </select>
-        </div>
-        <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="reconocimiento" name="reconocimiento">
-            <label class="form-check-label" for="reconocimiento">¿Quieres reconocimiento?</label>
-        </div>
-        <div class="mb-3">
-            <label for="frase" class="form-label">Tu Frase</label>
-            <textarea class="form-control" id="frase" name="frase" rows="4" placeholder="Escribe tu frase aquí" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary w-100">Enviar Frase</button>
-    </form>
-</div>
     `;
 
     // Evento para mostrar/ocultar el formulario
