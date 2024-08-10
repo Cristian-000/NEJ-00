@@ -5,10 +5,12 @@ function cargarAside() {
         .then(data => {
             const aside = document.getElementById('aside-categorias');
             aside.innerHTML = `
-                <h5>Categorías</h5>
-                <ul class="list-group">
+                <h4 style="color: var(--color-acento);">Categorías disponibles:</h4>
+                <ul class="list-group" style="padding: 0; list-style-type: none;">
                     ${data.categorias.map(categoria => 
-                        `<li class="list-group-item"><a href="${categoria.enlace}" onclick="guardarCategoria('${categoria.nombre}')">${categoria.nombre}</a></li>`
+                        `<li class="list-group-item" style="background-color: var(--color-secundario); color: var(--color-texto); border: 1px solid var(--color-borde);">
+                            <a href="${categoria.enlace}" onclick="guardarCategoria('${categoria.nombre}')" style="color: var(--color-acento); text-decoration: none;">${categoria.nombre}</a>
+                        </li>`
                     ).join('')}
                 </ul>
             `;
