@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
             listaFrases.innerHTML = ''; // Limpiar el contenido previo
 
             data.categorias.forEach(categoria => {
-                const frasesAutor = categoria.frases.filter(frase => frase.autor === 'Autor 3');
+                const frasesAutor = categoria.frases.filter(frase => frase.autor === 'Cristian Fernandez');
                 frasesAutor.forEach(frase => {
                     const li = document.createElement('li');
                     li.className = 'list-group-item';
