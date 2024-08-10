@@ -28,7 +28,7 @@ function cargarFormulario() {
                     <label for="frase" class="form-label" style="color: var(--color-texto);">Tu Frase</label>
                     <textarea class="form-control" id="frase" name="frase" rows="4" placeholder="Escribe tu frase aquí" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary w-100" style="background-color: var(--color-acento); border-color: var(--color-acento);">Enviar Frase</button>
+                <button type="submit" class="btn btn-primary w-100" style="background-color: var(--color-acento); border-color: var(--color-acento);">Enviar Frase   <i class="fas fa-envelope"></i></button>
             </form>
         </div>
     `;
