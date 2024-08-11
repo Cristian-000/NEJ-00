@@ -54,7 +54,7 @@
       "frases": [
         {
           "titulo": "El dolor de un amor no correspondido",
-          "enlace": "/pages/frases/amor_no_correspondido/amor_no_correspondido_1.html",
+          "enlace": "pages/frases/amor_no_correspondido/amor_no_correspondido_1.html",
           "fecha": "2024-08-03",
           "autor": "Cristian Fernandez",
           "autor_page": "autor_00001_cristian_fernandez.html"
@@ -74,35 +74,35 @@
       "frases": [
         {
           "titulo": "Desigualdad Salarial",
-          "enlace": "/pages/frases/injusticias_laborales/desigualdad_salarial.html",
+          "enlace": "pages/frases/injusticias_laborales/desigualdad_salarial.html",
           "fecha": "2024-08-10",
           "autor": "Autor 6",
           "autor_page": "autor_00006_autor_6.html"
         },
         {
           "titulo": "Discriminación por edad en el Trabajo",
-          "enlace": "/pages/frases/injusticias_laborales/discriminacion_por_edad.html",
+          "enlace": "pages/frases/injusticias_laborales/discriminacion_por_edad.html",
           "fecha": "2024-08-15",
           "autor": "Autor 7",
           "autor_page": "autor_00007_autor_7.html"
         },
         {
           "titulo": "Abuso de contratos temporales",
-          "enlace": "/pages/frases/injusticias_laborales/abuso_contratos_temporales.html",
+          "enlace": "pages/frases/injusticias_laborales/abuso_contratos_temporales.html",
           "fecha": "2024-08-20",
           "autor": "Autor 8",
           "autor_page": "autor_00008_autor_8.html"
         },
         {
           "titulo": "Explotacion laboral en la industria Textil",
-          "enlace": "/pages/frases/injusticias_laborales/abuso_industria_textil.html",
+          "enlace": "pages/frases/injusticias_laborales/abuso_industria_textil.html",
           "fecha": "2024-05-11",
           "autor": "Autor 8",
           "autor_page": "autor_00008_autor_8.html"
         },
         {
           "titulo": "Injusticias del Teletrabajo",
-          "enlace": "/pages/frases/injusticias_laborales/injusticias_teletrabajo.html",
+          "enlace": "pages/frases/injusticias_laborales/injusticias_teletrabajo.html",
           "fecha": "2024-09-11",
           "autor": "Autor 8",
           "autor_page": "autor_00008_autor_8.html"
