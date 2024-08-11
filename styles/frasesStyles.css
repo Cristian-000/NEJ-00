@@ -9,7 +9,7 @@ header {
     background-color: var(--color-acento);
     color: var(--color-fondo);
     padding: 5px 0;
-    border-button: 2px solid var(--color-acento);
+    border-bottom: 2px solid var(--color-acento);
 }
 
 h1 {
