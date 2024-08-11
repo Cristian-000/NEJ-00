@@ -1,6 +1,6 @@
 // Función para cargar el JSON de categorías y generar el navbar
 function cargarNavbar() {
-    fetch('categorias.json' || '/categorias.json' || '../categorias.json')
+    fetch('../categorias.json')
         .then(response => response.json())
         .then(data => {
             const navbar = document.getElementById('navbar');
