@@ -8,6 +8,9 @@ body {
     color: var(--color-texto);
     font-family: 'Arial', sans-serif;
 }
+#navbar {
+    border-bottom: 2px solid var(--color-acento);
+}
 
 header {
     background-color: var(--color-acento);

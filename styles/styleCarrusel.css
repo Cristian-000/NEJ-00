@@ -28,8 +28,8 @@
 }
 
 .carousel a:hover {
-    background-color: var(--color-acento);
-    color: var(--color-secundario);
+    
+    color: var(--color-acento);
 }
 
 @keyframes scroll {

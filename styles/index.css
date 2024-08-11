@@ -50,3 +50,17 @@ p {
     background-color: var(--color-acento);
     color: var(--color-fondo);
 }
+ul.list-group {
+    margin-top: 10px;
+}
+
+ul.list-group li {
+    background-color: var(--color-secundario);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#container_formulario{
+    margin-bottom: 20px;
+}
