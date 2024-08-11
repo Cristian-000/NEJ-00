@@ -26,7 +26,7 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: var(--color-secundario); border: 1px solid var(--color-acento);">
                                     ${data.categorias.map(categoria => 
-                                        `<li><a class="dropdown-item" href="${categoria.enlace}" onclick="guardarCategoria('${categoria.nombre}')">${categoria.nombre}</a></li>`
+                                        `<li><a class="dropdown-item" href="../../../${categoria.enlace}" onclick="guardarCategoria('${categoria.nombre}')">${categoria.nombre}</a></li>`
                                     ).join('')}
                                 </ul>
                             </li>
