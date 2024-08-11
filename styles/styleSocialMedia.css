@@ -1,10 +1,6 @@
 /* Asegúrate de importar el archivo de variables en el archivo CSS */
 @import url('variables.css');
 
-footer {
-    background-color: var(--color-acento);
-    color: var(--color-secundario);
-}
 
 #social-media {
     display: flex;

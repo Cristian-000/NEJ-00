@@ -90,4 +90,6 @@ function cargarCategorias() {
         .catch(error => console.error('Error al cargar las categorías:', error));
 }
 
+
+
 document.addEventListener('DOMContentLoaded', cargarFormulario);

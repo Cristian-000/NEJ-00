@@ -4,14 +4,6 @@
 @import url('variables.css');
 
 /* Aquí el resto de tus estilos específicos para el index */
-body {
-    background-color: var(--color-fondo);
-    color: var(--color-texto);
-    font-family: 'Arial', sans-serif;
-}
-#navbar {
-    border-bottom: 2px solid var(--color-acento);
-}
 
 
 h1 {

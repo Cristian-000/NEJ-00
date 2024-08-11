@@ -3,19 +3,12 @@
 @import url('variables.css');
 
 /* Aquí el resto de tus estilos específicos para el index */
-body {
-    background-color: var(--color-fondo);
-    color: var(--color-texto);
-    font-family: 'Arial', sans-serif;
-}
-#navbar {
-    border-bottom: 2px solid var(--color-acento);
-}
+
 
 header {
     background-color: var(--color-acento);
     color: var(--color-fondo);
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 h1 {
@@ -54,9 +47,3 @@ ul li {
     margin-bottom: 10px;
 }
 
-footer {
-    background-color: var(--color-acento);
-    color: var(--color-fondo);
-    padding: 10px 0;
-    text-align: center;
-}
