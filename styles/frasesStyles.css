@@ -16,7 +16,7 @@ h1 {
 }
 h2, h3 {
     color: var(--color-acento);
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 ul {
