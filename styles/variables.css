@@ -23,7 +23,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    min-height: 65vh;
+    min-height: 70vh;
 }
 
 /* Flex para el contenido y el footer */
@@ -34,7 +34,6 @@ main {
 /* El footer se queda abajo */
 footer {
     margin: 0 auto;
-    max-height: 25vh;
     background-color: #343a40; /* Fondo oscuro */
     color: #ffffff; /* Texto blanco */
     text-align: center;
