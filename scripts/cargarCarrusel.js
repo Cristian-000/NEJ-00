@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     categoria.frases.forEach(frase => {
                         const link = document.createElement('a');
                         link.href = frase.enlace;
-                        link.textContent = frase.enlace;
+                        link.textContent = frase.titulo;
                         carousel.appendChild(link);
                     });
                 } else {
