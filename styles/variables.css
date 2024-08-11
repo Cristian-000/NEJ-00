@@ -33,7 +33,8 @@ main {
 
 /* El footer se queda abajo */
 footer {
-    max-height: 20vh;
+    margin: 0 auto;
+    max-height: 25vh;
     background-color: #343a40; /* Fondo oscuro */
     color: #ffffff; /* Texto blanco */
     text-align: center;
