@@ -26,7 +26,7 @@ ul {
 }
 #datos-frase {
     background-color: var(--color-secundario); /* Fondo suave */
-    padding: 15px; /* Espaciado interno */
+    padding: 10px; /* Espaciado interno */
     border: 1px solid var(--color-acento); /* Borde con color de acento */
     border-radius: 8px; /* Esquinas redondeadas */
     margin-bottom: 10px; /* Separación inferior */
@@ -35,7 +35,7 @@ ul {
 #datos-frase p {
     margin: 5px 0; /* Margen superior e inferior pequeño */
     color: var(--color-texto); /* Color del texto principal */
-    font-size: 0.6rem; /* Tamaño de fuente estándar */
+    font-size: 0.8rem; /* Tamaño de fuente estándar */
 }
 
 #datos-frase a {
