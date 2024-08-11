@@ -25,13 +25,13 @@ function cargarNavbar() {
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav ms-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index.html">Inicio</a>
+                                        <a class="nav-link" href="../index.html">Inicio</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="autores.html">Autores</a>
+                                        <a class="nav-link" href="../../autores.html">Autores</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contacto.html">Contacto</a>
+                                        <a class="nav-link" href="../../../contacto.html">Contacto</a>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
