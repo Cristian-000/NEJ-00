@@ -15,6 +15,7 @@ body {
     background-color: var(--color-fondo);
     color: var(--color-texto);
     font-family: 'Arial', sans-serif;
+
 }
 
 
@@ -32,7 +33,7 @@ main {
 
 /* El footer se queda abajo */
 footer {
-    min-height: 25vh;
+    max-height: 20vh;
     background-color: #343a40; /* Fondo oscuro */
     color: #ffffff; /* Texto blanco */
     text-align: center;
