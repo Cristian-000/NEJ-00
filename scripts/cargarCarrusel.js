@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const carousel = document.querySelector('.carousel');
                     categoria.frases.forEach(frase => {
                         const link = document.createElement('a');
-                        link.href = frase.enlace;
+                        link.href = `../../../${frase.enlace}`;
                         link.textContent = frase.titulo;
                         carousel.appendChild(link);
                     });
