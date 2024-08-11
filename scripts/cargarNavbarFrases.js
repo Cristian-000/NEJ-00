@@ -5,7 +5,7 @@
             const navbar = document.getElementById('navbar');
             navbar.innerHTML = `
                 <div class="container-fluid">
-                    <a class="navbar-brand fw-bold" href="index.html" style="color: var(--color-acento);">No es Justo</a>
+                    <a class="navbar-brand fw-bold" href="../../../index.html" style="color: var(--color-acento);">No es Justo</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: var(--color-acento);">
                         <span class="navbar-toggler-icon"></span>
                     </button>
