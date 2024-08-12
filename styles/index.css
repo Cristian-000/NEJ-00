@@ -53,3 +53,20 @@ ul.list-group li {
     border-radius: 5px;
     transition: background-color 0.3s;
 }
+
+q {
+    font-size: 1.5rem; /* Ajusta el tamaño del texto */
+    font-style: italic; /* Añade un estilo cursivo */
+    text-align: center; /* Centra el texto */
+    display: block; /* Hace que el <q> ocupe todo el ancho disponible */
+    margin: 20px auto; /* Añade un margen para separarlo de otros elementos */
+    padding: 10px 20px; /* Añade espacio interior */
+    border-left: 4px solid var(--color-acento); /* Añade una línea a la izquierda */
+    color: var(--color-texto); /* Aplica el color de texto definido en variables */
+    background-color: var(--color-secundario); /* Aplica un fondo suave */
+    max-width: 800px; /* Limita el ancho máximo de la cita */
+}
+
+#frase-clave a {
+    text-decoration: none; /* Elimina el subrayado en el enlace */
+}
