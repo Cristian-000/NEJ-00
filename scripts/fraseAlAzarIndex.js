@@ -18,6 +18,6 @@ fetch('categorias.json')
         }
 
         mostrarFraseAleatoria();
-        setInterval(mostrarFraseAleatoria, 10000); // Cambia la frase cada 10 segundos
+        setInterval(mostrarFraseAleatoria, 3000); // Cambia la frase cada 10 segundos
     })
     .catch(error => console.error('Error al cargar el JSON:', error));
