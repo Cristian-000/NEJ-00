@@ -4,7 +4,7 @@ function cargarListaIndex() {
         .then(response => response.json())
         .then(data => {
             const lista = document.getElementById('index-categorias');
-            lista.innerHTML = `
+            lista.innerHTML += `
                 <h4 style="color: var(--color-acento);">Categorías disponibles:</h4>
                 <ul class="list-group" style="padding: 0; list-style-type: none;">
                     ${data.categorias.map(categoria => 
