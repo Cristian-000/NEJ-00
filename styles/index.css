@@ -1,4 +1,4 @@
-/* indexStyles.css */
+
 /* indexStyles.css */
 @import url('variables.css');
 
@@ -71,4 +71,35 @@ q {
 
 #frase-clave a {
     text-decoration: none; /* Elimina el subrayado en el enlace */
+}
+
+/* search bar*/
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#searchResults {
+    position: absolute;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: var(--color-secundario);
+    border: 1px solid var(--color-acento);
+    z-index: 1000;
+    display: none;
+}
+
+.search-results a {
+    display: block;
+    padding: 10px;
+    color: var(--color-texto);
+    text-decoration: none;
+}
+
+.search-results a:hover {
+    background-color: var(--color-acento);
+    color: var(--color-secundario);
 }
