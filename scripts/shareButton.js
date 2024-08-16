@@ -1,14 +1,10 @@
-const imgElement = document.querySelector('.imagen-frase');
-const imgUrl = imgElement.src;
-
 const shareData = {
-    title: 'Frase',
-    text: 'Mira esta frase:',
-    files: [imgUrl], // Esto es opcional y depende de la compatibilidad del dispositivo
-    url: window.location.href
+    title: 'Título de la Imagen',
+    text: 'Descripción de la Imagen',
+    url: 'https://cristian-000.github.io/NEJ-00/pages/frases/amor_no_correspondido/amor_no_correspondido_1.html/imagen.jpg'
 };
 
-document.querySelector('.share-button').addEventListener('click', async () => {
+document.getElementById('share-button').addEventListener('click', async () => {
     try {
         await navigator.share(shareData);
     } catch (err) {
