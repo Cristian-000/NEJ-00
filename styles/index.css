@@ -4,12 +4,11 @@
 .header-img {
     position: relative;
     text-align: center;
-    color: white; /* Color del texto */
 }
 
 .header-img img {
     width: 100%;
-    height: auto; /* Asegura que la imagen sea responsive */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
 .header-text {
@@ -21,6 +20,7 @@
     background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
     padding: 20px;
     border-radius: 10px;
+    width: 100%; /* Opcional: ajusta el ancho del texto según sea necesario */
 }
 
 .header-text h1 {
