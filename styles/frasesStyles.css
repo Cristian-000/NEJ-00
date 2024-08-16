@@ -58,3 +58,12 @@ q {
     color: var(--color-texto); /* Aplica el color de texto definido en variables */
     background-color: var(--color-secundario); /* Aplica un fondo suave */
 }
+.imagen-frase {
+    width: 100%; /* La imagen tomará el 100% del ancho del contenedor */
+    max-width: 400px; /* Establece un ancho máximo para la imagen */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    display: block; /* Asegura que no haya espacios en blanco alrededor de la imagen */
+    margin: 20px auto; /* Centra la imagen y agrega espacio arriba y abajo */
+    border-radius: 8px; /* Bordes redondeados para un mejor aspecto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+}
